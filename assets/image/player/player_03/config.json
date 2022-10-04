@@ -1,0 +1,101 @@
+{
+    "name": "A Dog",
+    "animations": {
+        "idle": {
+            "frames": ["01.png", "02.png", "03.png", "04.png"],
+            "frameRate": 0.1,
+            "pivot": {
+                "dx": 241,
+                "dy": 255
+            },
+            "frame_rect":  {
+                "dx": 140,
+                "dy": 152,
+                "width": 205,
+                "height": 128
+            }
+        },
+        "hit": {
+            "frames": ["05.png"],
+            "frameRate": 0.05,
+            "pivot": {
+                "dx": 241,
+                "dy": 255
+            },
+            "frame_rect":  {
+                "dx": 140,
+                "dy": 152,
+                "width": 205,
+                "height": 128
+            }
+        },
+        "walk": {
+            "frames": ["06.png", "07.png", "08.png", "09.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 350,
+                "dy": 255
+            },
+            "frame_rect":  {
+                "dx": 203,
+                "dy": 134,
+                "width": 160,
+                "height": 147
+            }
+        },
+        "attack": {
+            "frames": ["10.png", "11.png", "12.png", "13.png", "14.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 111,
+                "dy": 250
+            },
+            "frame_rect": {
+                "dx": 7,
+                "dy": 134,
+                "width": 176,
+                "height": 143
+            },
+            "attack_frame_rects": [
+                {
+                    "dx": 7,
+                    "dy": 89,
+                    "width": 176,
+                    "height": 203
+                },
+                {
+                    "dx": 53,
+                    "dy": 85,
+                    "width": 259,
+                    "height": 156
+                },
+                {
+                    "dx": 213,
+                    "dy": 71,
+                    "width": 237,
+                    "height": 172
+                },
+                {
+                    "dx": 250,
+                    "dy": 40,
+                    "width": 215,
+                    "height": 205
+                },
+                {
+                    "dx": 250,
+                    "dy": 40,
+                    "width": 215,
+                    "height": 205
+                }
+            ],
+            "move_after_attack": {
+                "dx": 300,
+                "dy": 50
+            }
+        }
+    },
+    "default_animation": "idle",
+    "speed": 7,
+    "jump_speed": 12
+    
+}

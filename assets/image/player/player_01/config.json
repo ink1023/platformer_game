@@ -1,0 +1,97 @@
+{
+    "name": "A Girl",
+    "animations": {
+        "idle": {
+            "frames": ["01.png", "02.png", "03.png", "04.png"],
+            "frameRate": 0.1,
+            "pivot": {
+                "dx": 233,
+                "dy": 226
+            },
+            "frame_rect":  {
+                "dx": 141,
+                "dy": 139,
+                "width": 143,
+                "height": 139
+            }
+        },
+        "hit": {
+            "frames": ["05.png"],
+            "frameRate": 0.05,
+            "pivot": {
+                "dx": 233,
+                "dy": 226
+            },
+            "frame_rect":  {
+                "dx": 141,
+                "dy": 139,
+                "width": 143,
+                "height": 139
+            }
+        },
+        "walk": {
+            "frames": ["06.png", "07.png", "08.png", "09.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 235,
+                "dy": 226
+            },
+            "frame_rect":  {
+                "dx": 131,
+                "dy": 136,
+                "width": 150,
+                "height": 143
+            }
+        },
+        "attack": {
+            "frames": ["10.png", "11.png", "12.png", "13.png", "14.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 233,
+                "dy": 226
+            },
+            "frame_rect": {
+                "dx": 147,
+                "dy": 141,
+                "width": 146,
+                "height": 139
+            },
+            "attack_frame_rects": [
+                {
+                    "dx": 232,
+                    "dy": 173,
+                    "width": 44,
+                    "height": 42
+                },
+                {
+                    "dx": 178,
+                    "dy": 182,
+                    "width": 37,
+                    "height": 37
+                },
+                {
+                    "dx": 302,
+                    "dy": 141,
+                    "width": 97,
+                    "height": 132
+                },
+                {
+                    "dx": 314,
+                    "dy": 188,
+                    "width": 126,
+                    "height": 47
+                },
+                {
+                    "dx": 314,
+                    "dy": 188,
+                    "width": 126,
+                    "height": 47
+                }
+            ]
+        }
+    },
+    "default_animation": "idle",
+    "speed": 5,
+    "jump_speed": 10
+    
+}

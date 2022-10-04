@@ -1,0 +1,97 @@
+{
+    "name": "A Boy",
+    "animations": {
+        "idle": {
+            "frames": ["01.png", "02.png", "03.png", "04.png"],
+            "frameRate": 0.1,
+            "pivot": {
+                "dx": 270,
+                "dy": 230
+            },
+            "frame_rect":  {
+                "dx": 194,
+                "dy": 127,
+                "width": 154,
+                "height": 150
+            }
+        },
+        "hit": {
+            "frames": ["05.png"],
+            "frameRate": 0.05,
+            "pivot": {
+                "dx": 236,
+                "dy": 235
+            },
+            "frame_rect":  {
+                "dx": 160,
+                "dy": 132,
+                "width": 128,
+                "height": 147
+            }
+        },
+        "walk": {
+            "frames": ["06.png", "07.png", "08.png", "09.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 259,
+                "dy": 230
+            },
+            "frame_rect":  {
+                "dx": 202,
+                "dy": 135,
+                "width": 156,
+                "height": 142
+            }
+        },
+        "attack": {
+            "frames": ["10.png", "11.png", "12.png", "13.png", "14.png"],
+            "frameRate": 0.15,
+            "pivot": {
+                "dx": 278,
+                "dy": 230
+            },
+            "frame_rect":  {
+                "dx": 204,
+                "dy": 130,
+                "width": 127,
+                "height": 147
+            },
+            "attack_frame_rects": [
+                {
+                    "dx": 160,
+                    "dy": 130,
+                    "width": 213,
+                    "height": 156
+                },
+                {
+                    "dx": 130,
+                    "dy": 83,
+                    "width": 253,
+                    "height": 202
+                },
+                {
+                    "dx": 127,
+                    "dy": 78,
+                    "width": 374,
+                    "height": 204
+                },
+                {
+                    "dx": 238,
+                    "dy": 140,
+                    "width": 292,
+                    "height": 153
+                },
+                {
+                    "dx": 238,
+                    "dy": 140,
+                    "width": 292,
+                    "height": 153
+                }
+            ]
+        }
+    },
+    "default_animation": "idle",
+    "speed": 5,
+    "jump_speed": 10
+    
+}
